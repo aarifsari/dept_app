@@ -1,0 +1,6 @@
+flutter pub get
+flutter run -d web-server
+flutter run -d web-server --web-port=8080
+
+telefon için
+flutter run -d emulator-5554
