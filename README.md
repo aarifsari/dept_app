@@ -14,23 +14,23 @@ A Flutter application designed as a simple department information app. This proj
 ---
 
 ##  Project Structure
-lib/
-├── main.dart # Application entry point
-├── screens/
-│ ├── home_page.dart
-│ ├── about_page.dart
-│ ├── instructors_page.dart
-│ └── infrastructure_page.dart
-├── widgets/ # Shared reusable widgets
-└── assets/ # Images and icons
+### lib/
+### ├── main.dart # Application entry point
+### ├── screens/
+### │ ├── home_page.dart
+### │ ├── about_page.dart
+### │ ├── instructors_page.dart
+### │ └── infrastructure_page.dart
+### ├── widgets/ # Shared reusable widgets
+### └── assets/ # Images and icons
 
-1. Navigate to the project directory
+### 1. Navigate to the project directory
 cd dept_app
 
-2. Install dependencies
+### 2. Install dependencies
 flutter pub get
 
-3. Run the app
+### 3. Run the app
 flutter run
 
 ## Development Notes
