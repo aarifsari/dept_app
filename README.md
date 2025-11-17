@@ -1,16 +1,58 @@
-# dept_app
+# **dept_app**
 
-A new Flutter project.
+A Flutter application designed as a simple department information app. This project provides a beginner-friendly structure for learning screens, navigation, and essential Flutter widgets.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+##  Features
+- Department information page  
+- Instructor list  
+- Infrastructure / laboratory overview  
+- Core Flutter components (Scaffold, AppBar, ListView, Navigation)  
+- Clean and scalable folder structure  
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+##  Project Structure
+lib/
+├── main.dart # Application entry point
+├── screens/
+│ ├── home_page.dart
+│ ├── about_page.dart
+│ ├── instructors_page.dart
+│ └── infrastructure_page.dart
+├── widgets/ # Shared reusable widgets
+└── assets/ # Images and icons
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Navigate to the project directory
+cd dept_app
+
+2. Install dependencies
+flutter pub get
+
+3. Run the app
+flutter run
+
+## Development Notes
+
+Uses Flutter’s Material Design system
+
+Each screen is structured as a separate Dart class
+
+Easily extendable for more advanced department or university applications
+
+API integration can be added for dynamic data
+
+## Future Improvements
+
+Dark mode support
+
+Instructor detail pages
+
+Map integration for department location
+
+Modern UI enhancements (gradients, animations, custom app bars)
+
+## License
+
+This project is created for educational purposes and can be freely modified.
